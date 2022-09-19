@@ -1,0 +1,12 @@
+.container {
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: '#6804CD';
+    
+  }
+  
+  .text {
+    color: '#ffffff';
+    font-weight: bold;
+  }

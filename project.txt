@@ -1,0 +1,8 @@
+
+-tee näkymät muck data?
+-react router
+
+
+-login + token
+-react query
+-react context

@@ -1,0 +1,54 @@
+.mobileMenu {
+    display: block;
+    position: absolute;
+    z-index: 25;
+    width: 100%;
+    z-index: 9999;
+    
+    
+}
+
+.mobileUpperMenu {
+    /* background-image: url("../../Img/galleryBG3.png"); */
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    border-radius: 0;
+    position: relative;
+    margin-top: 0;
+    padding-right: 15;
+    max-height: 7000;
+    box-sizing: initial;
+    height: 200;
+    width: 700;
+}
+.pressable {
+    z-index: 10;
+    position: absolute;
+    top: 200;
+    border-radius: 50%;
+}
+.linearGrad {
+    background-color: /* #f7ff0e */#8adb93;
+    background-image: linear-gradient(to right, /* #8adb93 */ #77df8e, #fbf4fd);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    border-radius: 0;
+    position: relative;
+    margin-top: 0;
+    padding-right: 15;
+    max-height: 7000;
+    box-sizing: initial;
+    height: 200;
+    width: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+    
+}
