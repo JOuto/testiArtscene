@@ -11,24 +11,36 @@
 .mobileUpperMenu {
     /* background-image: url("../../Img/galleryBG3.png"); */
 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
-    border-radius: 0;
-    position: relative;
-    margin-top: 0;
-    padding-right: 15;
-    max-height: 7000;
-    box-sizing: initial;
+display: flex;
+flex-direction: row;
+ 
+  
+  justify-content: space-evenly;
+
+
+    max-height: 100;
+    width:300;
     height: 200;
-    width: 700;
+   
 }
 .pressable {
-    z-index: 10;
+    flex: 1;
+    z-index: 100;
+    
+    background-color: "black";
     position: absolute;
     top: 200;
-    border-radius: 50%;
+   
+}
+.menubutton {
+    align-items: center;
+    justify-content: center;
+
+    border: solid 1px black;
+    border-radius: 50px;
+    height: 50;
+    width: 100;
+   
 }
 .linearGrad {
     background-color: /* #f7ff0e */#8adb93;
@@ -37,7 +49,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
-    border-radius: 0;
+  
     position: relative;
     margin-top: 0;
     padding-right: 15;

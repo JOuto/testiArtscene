@@ -2,48 +2,59 @@
   "expo": {
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["jsx", "css", "js"]
-    }
-  },
-    "name": "app-artscene",
-    "slug": "artsceneapp",
-    "owner": "jouto",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "sourceExts": [
+        "jsx",
+        "css",
+        "js"
+      ]
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "art"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+    "extra": {
+      "eas": {
+        "projectId": "46680c87-285f-41c4-a46c-9074bfdb7a84"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "@rnmapbox/maps",
-        {
-          "RNMapboxMapsImpl": "mapbox",
-          "RNMapboxMapsDownloadToken": "sk.ey...qg"
-        }
-      ]
+    "android": {
+      "package": "com.jouto.artscene"
+    }
+  },
+  "name": "app-artscene",
+  "slug": "artsceneapp",
+  "owner": "jouto",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "art"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    [
+      "@rnmapbox/maps",
+      {
+        "RNMapboxMapsImpl": "mapbox",
+        "RNMapboxMapsDownloadToken": "sk.ey...qg"
+      }
     ]
-   
+  ]
 }

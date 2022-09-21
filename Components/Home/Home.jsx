@@ -27,7 +27,7 @@ const Home = () => {
 useEffect(() => {
   const fetchUsers = async () => {
     const users = await axios.get("https://www.artscene.fi/api/users/galleries");
-    console.log(users.data);
+    //console.log(users.data);
     console.log("moro")
     
     setUsers(users.data);
@@ -38,16 +38,20 @@ fetchUsers();
 },[])
 
     return (
-        <View style={styles.container}>
+        <View>
+      {/*  <View>
           <Map/> 
-      <Text /* style={styles.container} */>Morooooooooooooo!</Text>
-      <Link to="/test"><Text>Testi</Text></Link>
-      <ScrollView>
+          </View> */}
+          <View style={{zIndex: 999, border: "slolid 1px black"}}>
+      <Link to="/test"><Text>Testi</Text></Link></View>
+     {/*  <ScrollView>
+      <Map/> 
       {users && users.map((u,i) => <Text key={i}>{u.name}</Text>)}
-      </ScrollView>
+      </ScrollView> */}
       {/* <Pressable onPress={() => <Navigate to="/test" />}><Text>Testi</Text></Pressable> */}
       {/* <StatusBar style="auto" /> */}
-    
+      
+     
         </View>
     )
 }

@@ -10,20 +10,28 @@ const Menu = () => {
 
     return (
         <>
-        
-        <View style={style.mobileUpperMenu}>
-        <Text style={{color: "black"}}>Press</Text>
+       
+      
+       
         <LinearGradient
         colors={["#77df8e", "#fbf4fd"]} 
         start={[0, 1]} end={[1, 0]}
         style={style.mobileUpperMenu}
         >
-
+  <View style={style.mobileUpperMenu}>
+            
+            <View style={style.menubutton}>
+            <Text >Press</Text>
+            </View>
+            <View style={style.menubutton}>
+            <Text >Press2</Text>
+            </View>
+            </View>
 
         </LinearGradient>
-        <Pressable style={style.pressable}><Text>Press</Text></Pressable>
+        
 
-       </View>
+      
         </>
     )
 }
