@@ -4,23 +4,16 @@ import Menu from "./Menu/Menu"
 import Test from "./Test";
 import { StyleSheet, View } from 'react-native';
 import { Route, Routes, Navigate } from 'react-router-native';
+import style from "./Main.css"
 
 
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center'
-    }
-      
-  });
 
 
 
 
 const Main = () => {
   return (
-    <View style={styles.container}>
+    <View style={style.container}>
      <Menu/>
       <Routes>
         <Route path="/" element={<Home />} exact />

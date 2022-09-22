@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import {Pressable, View, Text} from "react-native";
+import {Pressable, View, Text, Image} from "react-native";
 import style from "./Menu.css";
 import { LinearGradient } from "expo-linear-gradient";
 import { Animated } from "react-native";
+import logo from "../../assets/logo.png";
+
 
 
 const Menu = () => {
@@ -19,7 +21,10 @@ const Menu = () => {
         style={style.mobileUpperMenu}
         >
   <View style={style.mobileUpperMenu}>
-            
+  <Image
+        style={style.logo}
+        source={logo}
+      />
             <View style={style.menubutton}>
             <Text >Press</Text>
             </View>

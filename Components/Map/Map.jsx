@@ -17,7 +17,7 @@ const Map = () => {
     const styles = StyleSheet.create({
         page: {
           flex: 1,
-          paddingLeft: 300,
+         paddingTop: 200,
           justifyContent: "center",
           alignItems: "center",
           backgroundColor: "#F5FCFF"

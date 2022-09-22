@@ -64,3 +64,9 @@ flex-direction: row;
 
     
 }
+.logo {
+    height: 50;
+    width: 50;
+    color: white;
+    filter: invert(1);
+}
